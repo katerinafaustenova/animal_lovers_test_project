@@ -1,4 +1,24 @@
-.nadpis,
+.map {
+  padding: 50px 0;
+  color: #6a6a6a;
+  text-align: center;
+}
+
+.title {
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 300;
+  margin: 0;
+}
+
 .text {
-  color: black;
+  font-size: 12px;
+}
+.image {
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
 }

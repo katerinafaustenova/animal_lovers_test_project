@@ -2,9 +2,10 @@ import Head from "next/head";
 import Header from "./header";
 import Slider from "./slider";
 import Map from "./map";
-import Aktuality from "./aktuality";
+import News from "./news";
 import Form from "./form";
 import Headline from "./headline";
+import Carousel from "./carousel";
 import Footer from "./footer";
 
 import styles from "../styles/Home.module.css";
@@ -24,10 +25,11 @@ export default function Home() {
       <Slider />
       <Map />
       <Headline title="Aktuality" />
-      <Aktuality />
+      <News />
       <Headline title="Novinky e-mailem" />
       <Form />
       <Headline title="Zvířata dle druhu" />
+      <Carousel />
       <Footer />
     </div>
   );

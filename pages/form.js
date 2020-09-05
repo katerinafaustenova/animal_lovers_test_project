@@ -3,24 +3,34 @@ import styles from "../styles/Form.module.css";
 export default function Form() {
   return (
     <form className={styles.form}>
-      <div>
-        <label for="email" className={styles.label}>
-          Váš e-mail:
-        </label>
-        <input name="email" type="email" placeholder="@" />
+      <div className={styles.row}>
+        <div className={styles.left}>
+          <label for="email">Váš e-mail:</label>
+        </div>
+        <div className={styles.right}>
+          <input
+            className={styles.input}
+            name="email"
+            type="email"
+            placeholder="@"
+          />
+        </div>
       </div>
-      <div>
-        <label for="select" className={styles.label}>
-          Vaše země:
-        </label>
-        <select name="select">
-          <option value="" disabled selected>
-            Vyberte zemi
-          </option>
-        </select>
+      <div className={styles.row}>
+        <div className={styles.left}>
+          <label for="text">Vaše země:</label>
+        </div>
+        <div className={styles.right}>
+          <input
+            className={styles.input}
+            type="text"
+            name="text"
+            placeholder="Vyberte zemi"
+          ></input>
+        </div>
       </div>
-      <div>
-        <button>Chci novinky</button>
+      <div className={styles.submit}>
+        <button className={styles.button}>Chci novinky</button>
       </div>
     </form>
   );

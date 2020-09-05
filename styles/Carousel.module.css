@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+}
+.nvm {
+  width: 800px;
+  overflow: hidden;
+}
+.carousel {
+  position: relative;
+  left: 0px;
+  display: flex;
+  border: solid 1px red;
+  transition: 0.5s;
+}
+.item {
+  width: 200px;
+}
+.second {
+  left: -200px;
+}
+.third {
+  left: -400px;
+}

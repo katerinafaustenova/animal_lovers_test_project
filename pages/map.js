@@ -2,12 +2,14 @@ import styles from "../styles/Map.module.css";
 
 export default function Map() {
   return (
-    <div>
-      <h1 className={styles.nadpis}>Zvířata podle světadílu</h1>
+    <div className={styles.map}>
+      <h1 className={styles.title}>Zvířata podle světadílu</h1>
       <p className={styles.text}>
         Nunc et lacinia est. Suspendisse porttitor, ante sit amet laoreet omare,
       </p>
-      <img src="/map.png" />
+      <div className={styles.image}>
+        <img src="/map.png" />
+      </div>
     </div>
   );
 }

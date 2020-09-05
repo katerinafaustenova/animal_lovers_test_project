@@ -1,15 +1,40 @@
 import styles from "../styles/Slider.module.css";
+import React, { useState } from "react";
+import classNames from "classnames";
 
 export default function Slider() {
+  const [position, setPosition] = useState(1);
+
   return (
-    <div>
+    <div className={styles.wrapper}>
       <div>
-        <img src="/slider_lion.png" />
+        <img src={`/slider_${position}.png`} />
       </div>
-      <div>
-        <img src="/control_lion_over.png" />
-        <img src="/control_zebra.png" />
-        <img src="/control_tiger.png" />
+      <div className={styles.controls}>
+        <div
+          className={classNames(
+            styles.controlItem,
+            styles.lion,
+            position === 1 && styles.active
+          )}
+          onClick={() => setPosition(1)}
+        />
+        <div
+          className={classNames(
+            styles.controlItem,
+            styles.zebra,
+            position === 2 && styles.active
+          )}
+          onClick={() => setPosition(2)}
+        />
+        <div
+          className={classNames(
+            styles.controlItem,
+            styles.tiger,
+            position === 3 && styles.active
+          )}
+          onClick={() => setPosition(3)}
+        />
       </div>
     </div>
   );

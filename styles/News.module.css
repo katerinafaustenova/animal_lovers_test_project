@@ -1,7 +1,4 @@
 .wrapper {
   display: flex;
-}
-
-.text {
-  color: black;
+  margin: 0px auto;
 }

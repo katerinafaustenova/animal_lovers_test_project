@@ -1,0 +1,49 @@
+.wrapper {
+  position: relative;
+}
+
+.controls {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.controlItem {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  width: 200px;
+  height: 94px;
+  margin-right: 10px;
+}
+
+.controlItem:last-child {
+  margin: 0;
+}
+
+/* 10px od spodu velkyho obrazku */
+
+.lion {
+  background-image: url(/control_lion.png);
+}
+
+.zebra {
+  background-image: url(/control_zebra.png);
+}
+
+.tiger {
+  background-image: url(/control_tiger.png);
+}
+
+.lion.active {
+  background-image: url(/control_lion_over.png);
+}
+
+.zebra.active {
+  background-image: url(/control_zebra_over.png);
+}
+
+.tiger.active {
+  background-image: url(/control_tiger_over.png);
+}
