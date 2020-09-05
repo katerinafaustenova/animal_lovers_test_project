@@ -1,0 +1,16 @@
+.footer {
+  color: #fff;
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  background-image: url(/footer-bg.png);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 60px;
+  font-size: 13px;
+}

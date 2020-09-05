@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1054px;
+  height: 80px;
+  border: 2px solid yellow;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+}
+
+.ul li a {
+  padding: 0 20px;
+  cursor: pointer;
+}
