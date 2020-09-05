@@ -15,6 +15,10 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
       <Header />
       <Slider />
