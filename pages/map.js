@@ -10,6 +10,9 @@ export default function Map() {
       <div className={styles.image}>
         <img src="/map.png" />
       </div>
+      <div>
+        <img src="/map1.png" />
+      </div>
     </div>
   );
 }
