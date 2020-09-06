@@ -7,34 +7,46 @@ export default function Slider() {
 
   return (
     <div className={styles.wrapper}>
-      <div>
-        <img src={`/slider_${position}.png`} />
+      <div
+        className={classNames(styles.arrowWrapper, styles.rightMargin)}
+        onClick={() => setPosition(position - 1)}
+      >
+        <input type="image" src="/leftArrow.svg" alt="leftArrow" />
       </div>
-      <div className={styles.controls}>
+      <div className={styles.items}>
         <div
           className={classNames(
-            styles.controlItem,
-            styles.lion,
-            position === 1 && styles.active
+            styles.viewSlides,
+
+            position === 2 && styles.second,
+            position === 3 && styles.third
           )}
-          onClick={() => setPosition(1)}
-        />
-        <div
-          className={classNames(
-            styles.controlItem,
-            styles.zebra,
-            position === 2 && styles.active
-          )}
-          onClick={() => setPosition(2)}
-        />
-        <div
-          className={classNames(
-            styles.controlItem,
-            styles.tiger,
-            position === 3 && styles.active
-          )}
-          onClick={() => setPosition(3)}
-        />
+        >
+          <div className={styles.item}>
+            <img src="/1.png" />
+          </div>
+          <div className={styles.item}>
+            <img src="/2.png" />
+          </div>
+          <div className={styles.item}>
+            <img src="/3.png" />
+          </div>
+          <div className={styles.item}>
+            <img src="/4.png" />
+          </div>
+          <div className={styles.item}>
+            <img src="/5.png" />
+          </div>
+          <div className={styles.item}>
+            <img src="/6.png" />
+          </div>
+        </div>
+      </div>
+      <div
+        className={classNames(styles.arrowWrapper, styles.leftMargin)}
+        onClick={() => setPosition(position + 1)}
+      >
+        <input type="image" src="/rightArrow.svg" alt="rightArrow" />
       </div>
     </div>
   );

@@ -22,14 +22,14 @@ export default function Home() {
         ></link>
       </Head>
       <Header />
-      <Slider />
+      <Carousel />
       <Map />
       <Headline title="Aktuality" />
       <News />
       <Headline title="Novinky e-mailem" />
       <Form />
       <Headline title="Zvířata dle druhu" />
-      <Carousel />
+      <Slider />
       <Footer />
     </div>
   );

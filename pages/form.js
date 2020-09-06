@@ -5,7 +5,9 @@ export default function Form() {
     <form className={styles.form}>
       <div className={styles.row}>
         <div className={styles.left}>
-          <label for="email">Váš e-mail:</label>
+          <label for="email" className={styles.label}>
+            Váš e-mail:
+          </label>
         </div>
         <div className={styles.right}>
           <input
@@ -18,15 +20,27 @@ export default function Form() {
       </div>
       <div className={styles.row}>
         <div className={styles.left}>
-          <label for="text">Vaše země:</label>
+          <label for="select" className={styles.label}>
+            Vaše země:
+          </label>
         </div>
         <div className={styles.right}>
-          <input
-            className={styles.input}
-            type="text"
-            name="text"
-            placeholder="Vyberte zemi"
-          ></input>
+          <select className={styles.input}>
+            <option
+              name="select"
+              selected
+              disabled
+              hidden
+              style={{
+                paddingLeft: "12px",
+                color: "red",
+                // color: "#9c9a9a",
+                fontSize: "13px",
+              }}
+            >
+              Vyberte zemi
+            </option>
+          </select>
         </div>
       </div>
       <div className={styles.submit}>

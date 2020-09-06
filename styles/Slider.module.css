@@ -1,48 +1,43 @@
 .wrapper {
-  position: relative;
-}
-
-.controls {
   display: flex;
-  position: absolute;
-  bottom: 15px;
-  left: 50%;
-  transform: translate(-50%);
+  margin: 5px 0 55px 0;
 }
-
-.controlItem {
-  background-repeat: no-repeat;
-  background-position: bottom right;
+.items {
+  width: 856px;
+  overflow: hidden;
+}
+.viewSlides {
+  position: relative;
+  left: 0px;
+  display: flex;
+  transition: 0.5s;
+}
+.item {
   width: 200px;
-  height: 94px;
-  margin-right: 10px;
+  line-height: 1px;
+  margin: 0 7px;
 }
 
-.controlItem:last-child {
-  margin: 0;
+.arrowWrapper {
+  display: flex;
+  align-items: center;
+}
+.arrowWrapper input:focus {
+  outline: none;
 }
 
-.lion {
-  background-image: url(/control_lion.png);
-  background-position: top center;
+.rightMargin {
+  margin-right: 13px;
 }
 
-.zebra {
-  background-image: url(/control_zebra.png);
+.leftMargin {
+  margin-left: 13px;
 }
 
-.tiger {
-  background-image: url(/control_tiger.png);
+.second {
+  left: -214px;
 }
 
-.lion.active {
-  background-image: url(/control_lion_over.png);
-}
-
-.zebra.active {
-  background-image: url(/control_zebra_over.png);
-}
-
-.tiger.active {
-  background-image: url(/control_tiger_over.png);
+.third {
+  left: -428px;
 }

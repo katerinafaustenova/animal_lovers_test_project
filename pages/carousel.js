@@ -4,42 +4,38 @@ import classNames from "classnames";
 
 export default function Carousel() {
   const [position, setPosition] = useState(1);
-  console.log(position);
 
-  const pole = [{}];
   return (
     <div className={styles.wrapper}>
-      <button onClick={() => setPosition(position - 1)}>Zpět</button>
-      <div className={styles.nvm}>
+      <div>
+        <img src={`/slider_${position}.png`} />
+      </div>
+      <div className={styles.controls}>
         <div
           className={classNames(
-            styles.carousel,
-
-            position === 2 && styles.second,
-            position === 3 && styles.third
+            styles.controlItem,
+            styles.lion,
+            position === 1 && styles.active
           )}
-        >
-          <div className={styles.item}>
-            <img src="/1.png" />
-          </div>
-          <div className={styles.item}>
-            <img src="/2.png" />
-          </div>
-          <div className={styles.item}>
-            <img src="/3.png" />
-          </div>
-          <div className={styles.item}>
-            <img src="/4.png" />
-          </div>
-          <div className={styles.item}>
-            <img src="/5.png" />
-          </div>
-          <div className={styles.item}>
-            <img src="/6.png" />
-          </div>
-        </div>
+          onClick={() => setPosition(1)}
+        />
+        <div
+          className={classNames(
+            styles.controlItem,
+            styles.zebra,
+            position === 2 && styles.active
+          )}
+          onClick={() => setPosition(2)}
+        />
+        <div
+          className={classNames(
+            styles.controlItem,
+            styles.tiger,
+            position === 3 && styles.active
+          )}
+          onClick={() => setPosition(3)}
+        />
       </div>
-      <button onClick={() => setPosition(position + 1)}>Dopředu</button>
     </div>
   );
 }
