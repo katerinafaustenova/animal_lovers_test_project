@@ -6,9 +6,11 @@ export default function NewsItem(props) {
       <div>
         <img src={`/${props.source}.png`} />
       </div>
-      <div className={styles.text}>
-        <a href="#">{props.title}</a>
-        <p>{props.text}</p>
+      <div className={styles.data}>
+        <a href="#" className={styles.title}>
+          {props.title}
+        </a>
+        <p className={styles.text}>{props.text}</p>
       </div>
     </div>
   );

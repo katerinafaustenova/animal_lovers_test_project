@@ -5,7 +5,7 @@
 .controls {
   display: flex;
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   left: 50%;
   transform: translate(-50%);
 }
@@ -22,10 +22,9 @@
   margin: 0;
 }
 
-/* 10px od spodu velkyho obrazku */
-
 .lion {
   background-image: url(/control_lion.png);
+  background-position: top center;
 }
 
 .zebra {

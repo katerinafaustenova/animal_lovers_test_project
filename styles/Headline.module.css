@@ -1,18 +1,19 @@
 .headline {
-  color: #6a6a6a;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto 20px;
   width: 940px;
-  margin: 10px auto;
-  margin-bottom: 30px;
+  height: 30px;
+  font-weight: 300;
+  color: #6a6a6a;
   background-image: url(/line-bg1.png);
   background-repeat: repeat-x;
   background-position-y: 50%;
-  font-size: 24px;
-  line-height: 24px;
-  font-weight: 300;
 }
 
 .title {
   padding: 0 15px;
+  font-size: 24px;
+  line-height: 28px;
   background-color: #fff;
 }

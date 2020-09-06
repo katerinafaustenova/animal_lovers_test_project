@@ -9,4 +9,5 @@
   margin: 0 auto;
   background-image: url(/top_background.png);
   background-repeat: no-repeat;
+  background-position-y: -7%;
 }

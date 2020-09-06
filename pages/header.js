@@ -8,22 +8,24 @@ export default function Header() {
       </div>
       <ul className={styles.ul}>
         <li className={styles.active}>
-          <img src="/home1.svg" />
+          <a href="#">
+            <img src="/home1.svg" />
+          </a>
         </li>
         <li>
-          <a>Lvi</a>
+          <a href="#">Lvi</a>
         </li>
         <li>
-          <a>Zebry</a>
+          <a href="#">Zebry</a>
         </li>
         <li>
-          <a>Žirafy</a>
+          <a href="#">Žirafy</a>
         </li>
         <li>
-          <a>Pumy</a>
+          <a href="#">Pumy</a>
         </li>
         <li>
-          <a>Kohouti</a>
+          <a href="#">Kohouti</a>
         </li>
       </ul>
     </div>
