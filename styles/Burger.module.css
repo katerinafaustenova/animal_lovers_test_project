@@ -1,0 +1,29 @@
+.nav {
+  background-color: rgb(187, 187, 241);
+  display: flex;
+  flex-direction: column;
+}
+
+.burger {
+  display: none;
+  width: 200px;
+}
+
+@media only screen and (max-width: 650px) {
+  .burger {
+    display: block;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .expand .burger {
+    background-color: green;
+  }
+
+  .expand .list {
+    display: flex;
+    flex-direction: column;
+  }
+}

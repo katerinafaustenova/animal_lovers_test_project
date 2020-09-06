@@ -1,5 +1,5 @@
 .map {
-  padding: 35px 0;
+  padding: 35px 0 0;
   color: #6a6a6a;
   text-align: center;
 }
@@ -14,8 +14,16 @@
 .text {
   font-size: 12px;
 }
+
+.scroll {
+  width: auto;
+  overflow: scroll;
+}
+
 .image {
   position: relative;
+  width: 941px;
+  height: 225px;
 }
 
 .image img {

@@ -1,0 +1,54 @@
+.wrapper {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border: solid 3px black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.wrapper::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 50%) rotate(180deg);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #000000;
+}
+
+.wrapper:hover::after {
+  top: -10px;
+  transform: translate(-50%, 50%) rotate(0deg);
+}
+
+.mapItem {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  border: solid 2px white;
+  border-radius: 50%;
+}
+
+.text {
+  position: absolute;
+  top: -44px;
+  left: 50%;
+  width: auto;
+  padding: 0 15px;
+  border-radius: 3px;
+  font-size: 17px;
+  line-height: 36px;
+  white-space: nowrap;
+  color: white;
+  transform: translate(-50%, -50%);
+  background: black;
+  opacity: 0;
+  z-index: 10;
+  transition: 0.4s;
+}
+
+.wrapper:hover .text {
+  opacity: 1;
+}
