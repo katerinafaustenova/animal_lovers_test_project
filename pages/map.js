@@ -15,19 +15,19 @@ export default function Map() {
 
   return (
     <div className={styles.map}>
-      <h1 className={styles.title}>
-        Zvířata podle světadílu
-      </h1>
+      <h1 className={styles.title}>Zvířata podle světadílu</h1>
       <p className={styles.text}>
         Nunc et lacinia est. Suspendisse porttitor, ante sit amet laoreet omare,
       </p>
       <div className={styles.scroll}>
         <div className={styles.image}>
-          {items.map(item => {
+          {items.map((item) => {
             const { number, name, x, y } = item;
-            return <MapItem number={number} name={name} x={x} y={y} />
+            return (
+              <MapItem key={number} number={number} name={name} x={x} y={y} />
+            );
           })}
-          <img src="/map.png" />
+          <img src="/map/map.png" />
         </div>
       </div>
     </div>

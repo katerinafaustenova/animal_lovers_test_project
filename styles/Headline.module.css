@@ -2,10 +2,11 @@
   display: flex;
   justify-content: center;
   margin: 10px auto 20px;
-  width: 940px;
+  width: 100%;
+  max-width: 941px;
   height: 30px;
   font-weight: 300;
-  color: #6a6a6a;
+  color: var(--gray-600);
   background-image: url(/line-bg1.png);
   background-repeat: repeat-x;
   background-position-y: 50%;

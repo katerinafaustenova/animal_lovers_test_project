@@ -11,7 +11,7 @@ export default function Slider() {
         className={classNames(styles.arrowWrapper, styles.rightMargin)}
         onClick={() => setPosition(position - 1)}
       >
-        <input type="image" src="/leftArrow.svg" alt="leftArrow" />
+        <input type="image" src="/slider/leftArrow.svg" alt="leftArrow" />
       </div>
       <div className={styles.items}>
         <div
@@ -23,22 +23,22 @@ export default function Slider() {
           )}
         >
           <div className={styles.item}>
-            <img src="/1.png" />
+            <img src="/slider/1.png" />
           </div>
           <div className={styles.item}>
-            <img src="/2.png" />
+            <img src="/slider/2.png" />
           </div>
           <div className={styles.item}>
-            <img src="/3.png" />
+            <img src="/slider/3.png" />
           </div>
           <div className={styles.item}>
-            <img src="/4.png" />
+            <img src="/slider/4.png" />
           </div>
           <div className={styles.item}>
-            <img src="/5.png" />
+            <img src="/slider/5.png" />
           </div>
           <div className={styles.item}>
-            <img src="/6.png" />
+            <img src="/slider/6.png" />
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ export default function Slider() {
         className={classNames(styles.arrowWrapper, styles.leftMargin)}
         onClick={() => setPosition(position + 1)}
       >
-        <input type="image" src="/rightArrow.svg" alt="rightArrow" />
+        <input type="image" src="/slider/rightArrow.svg" alt="rightArrow" />
       </div>
     </div>
   );

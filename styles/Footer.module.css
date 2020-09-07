@@ -9,8 +9,9 @@
 .wrapper {
   display: flex;
   justify-content: space-between;
-  width: 940px;
+  width: auto;
+  max-width: 941px;
   margin: 0 auto;
   line-height: 60px;
-  font-size: 13px;
+  font-size: var(--fz-small);
 }

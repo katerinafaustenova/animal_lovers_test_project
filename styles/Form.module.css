@@ -23,7 +23,7 @@
 }
 
 .label {
-  font-size: 14px;
+  font-size: var(--fz-normal);
   color: #5c5c5c;
   font-weight: 600;
 }
@@ -45,7 +45,7 @@
 .input::placeholder {
   padding-left: 12px;
   color: #9c9a9a;
-  font-size: 13px;
+  font-size: var(--fz-small);
 }
 
 .submit {
@@ -60,6 +60,6 @@
   width: 112px;
   height: 34px;
   margin-top: 6px;
-  font-size: 14px;
+  font-size: var(--fz-normal);
   cursor: pointer;
 }

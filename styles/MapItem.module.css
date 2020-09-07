@@ -20,7 +20,10 @@
 
 .wrapper:hover::after {
   top: -10px;
-  transform: translate(-50%, 50%) rotate(0deg);
+}
+
+.wrapper:hover .text {
+  opacity: 1;
 }
 
 .mapItem {
@@ -38,7 +41,7 @@
   width: auto;
   padding: 0 15px;
   border-radius: 3px;
-  font-size: 17px;
+  font-size: var(--fz-tooltip);
   line-height: 36px;
   white-space: nowrap;
   color: white;
@@ -47,8 +50,4 @@
   opacity: 0;
   z-index: 10;
   transition: 0.4s;
-}
-
-.wrapper:hover .text {
-  opacity: 1;
 }

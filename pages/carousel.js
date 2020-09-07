@@ -1,40 +1,35 @@
 import styles from "../styles/Carousel.module.css";
 import React, { useState } from "react";
-import classNames from "classnames";
+import CarouselItem from "./carouselItem";
 
 export default function Carousel() {
   const [position, setPosition] = useState(1);
 
+  const items = [
+    { id: 1, name: "lion" },
+    { id: 2, name: "zebra" },
+    { id: 3, name: "tiger" },
+  ];
+
+  function handleChangePosition(value) {
+    setPosition(value);
+  }
+
   return (
-    <div className={styles.wrapper}>
-      <div>
-        <img src={`/slider_${position}.png`} />
-      </div>
+    <div className={styles.carousel}>
+      <img src={`/slider_${position}.png`} alt={`/slider_${position}.png`} />
       <div className={styles.controls}>
-        <div
-          className={classNames(
-            styles.controlItem,
-            styles.lion,
-            position === 1 && styles.active
-          )}
-          onClick={() => setPosition(1)}
-        />
-        <div
-          className={classNames(
-            styles.controlItem,
-            styles.zebra,
-            position === 2 && styles.active
-          )}
-          onClick={() => setPosition(2)}
-        />
-        <div
-          className={classNames(
-            styles.controlItem,
-            styles.tiger,
-            position === 3 && styles.active
-          )}
-          onClick={() => setPosition(3)}
-        />
+        {items.map((item) => {
+          return (
+            <CarouselItem
+              key={item.id}
+              id={item.id}
+              name={item.name}
+              handleChange={handleChangePosition}
+              position={position}
+            />
+          );
+        })}
       </div>
     </div>
   );

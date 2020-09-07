@@ -1,6 +1,8 @@
 .map {
+  width: 100%;
+  max-width: 941px;
   padding: 35px 0 0;
-  color: #6a6a6a;
+  color: var(--gray-600);
   text-align: center;
 }
 
@@ -12,12 +14,12 @@
 }
 
 .text {
-  font-size: 12px;
+  font-size: var(--fz-smaller);
 }
 
 .scroll {
-  width: auto;
-  overflow: scroll;
+  width: 100%;
+  overflow-x: scroll;
 }
 
 .image {
