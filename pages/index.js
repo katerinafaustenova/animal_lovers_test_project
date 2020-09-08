@@ -7,8 +7,6 @@ import Form from "./form";
 import Headline from "./headline";
 import Carousel from "./carousel";
 import Footer from "./footer";
-import Burger from "./burger";
-
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -22,7 +20,6 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
-      {/* <Burger /> */}
       <Header />
       <Carousel />
       <Map />

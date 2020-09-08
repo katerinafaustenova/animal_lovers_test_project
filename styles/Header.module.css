@@ -1,12 +1,20 @@
-.wrapper {
+.header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 940px;
+  max-width: 980px;
+  padding: 0 20px;
   width: 100%;
   height: 80px;
   color: white;
+  position: relative;
+  z-index: 50;
 }
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   display: flex;
   justify-content: center;
@@ -15,14 +23,16 @@
   height: 80px;
 }
 
-.nav {
-  display: flex;
-  flex-direction: column;
-}
-
 .burger {
   display: none;
-  width: 200px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .ul {
@@ -55,31 +65,58 @@
   padding-top: 2px;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 800px) {
+  .header {
+    height: auto;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .wrapper {
+    padding: 0 20px;
+  }
+
   .burger {
     display: block;
     width: 40px;
     height: 40px;
-    background-image: url("/openBurger.svg");
+    margin-left: auto;
+    background-image: url("/menu.svg");
     background-size: contain;
   }
 
-  .ul {
+  .nav {
     display: none;
+  }
+
+  .ul {
+    flex-direction: column;
+  }
+
+  .ul li {
+    font-size: 24px;
+    padding: 10px 30px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .ul li.active {
+    padding-top: 10px;
   }
 
   .expand .burger {
     width: 40px;
     height: 40px;
-    background-image: url("/closeBurger.svg");
+    background-image: url("/close.svg");
     background-size: contain;
   }
 
-  .expand .ul {
+  .expand .nav {
     display: flex;
     flex-direction: column;
-  }
-  .wrapper {
-    height: auto;
+    position: absolute;
+    top: 80px;
+    background-image: url(/top_background.png);
+    padding: 15px;
   }
 }

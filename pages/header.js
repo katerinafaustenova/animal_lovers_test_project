@@ -6,17 +6,21 @@ export default function Header() {
   const [toggleBurger, setToggleBurger] = useState(false);
 
   return (
-    <div className={styles.wrapper}>
-      <div className={styles.logo}>
-        <img src="/logo.png" />
-      </div>
-      <nav className={classNames(styles.nav, toggleBurger && styles.expand)}>
-        <button
+    <div className={classNames(styles.header, toggleBurger && styles.expand)}>
+      <div className={styles.wrapper}>
+        <img
+          className={styles.logo}
+          src="/logo.png"
+          alt="logo_heart_animal_lovers"
+        />
+        <div
           className={styles.burger}
           onClick={() => {
             setToggleBurger(!toggleBurger);
           }}
         />
+      </div>
+      <nav className={styles.nav}>
         <ul className={styles.ul}>
           <li className={styles.active}>
             <a href="#">

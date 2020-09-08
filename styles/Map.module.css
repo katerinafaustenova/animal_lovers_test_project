@@ -15,9 +15,11 @@
 
 .text {
   font-size: var(--fz-smaller);
+  margin-bottom: 0;
 }
 
 .scroll {
+  padding-top: 30px;
   width: 100%;
   overflow-x: scroll;
 }

@@ -18,6 +18,10 @@
   margin: 0 7px;
 }
 
+.item img {
+  cursor: pointer;
+}
+
 .arrowWrapper {
   display: flex;
   align-items: center;

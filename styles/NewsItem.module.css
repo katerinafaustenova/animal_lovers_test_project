@@ -24,7 +24,10 @@
 @media only screen and (max-width: 950px) {
   .item {
     width: 100%;
-    justify-content: center;
     margin-bottom: 20px;
+    max-width: 300px;
   }
+  /* .item:nth-child(even) {
+    flex-direction: row-reverse;
+  } */
 }

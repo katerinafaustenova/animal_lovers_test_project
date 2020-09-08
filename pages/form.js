@@ -1,4 +1,5 @@
 import styles from "../styles/Form.module.css";
+import classNames from "classnames";
 
 export default function Form() {
   return (
@@ -24,20 +25,9 @@ export default function Form() {
             Vaše země:
           </label>
         </div>
-        <div className={styles.right}>
+        <div className={classNames(styles.right, styles.select)}>
           <select className={styles.input}>
-            <option
-              name="select"
-              selected
-              disabled
-              hidden
-              style={{
-                paddingLeft: "12px",
-                color: "red",
-                // color: "#9c9a9a",
-                fontSize: "13px",
-              }}
-            >
+            <option name="select" selected disabled hidden>
               Vyberte zemi
             </option>
           </select>
