@@ -11,7 +11,7 @@ export default function Slider() {
         className={classNames(styles.arrowWrapper, styles.rightMargin)}
         onClick={() => setPosition(position - 1)}
       >
-        <input type="image" src="/slider/leftArrow.svg" alt="leftArrow" />
+        <input type="image" src="/slider/leftArrow.svg" alt="šipka vlevo" />
       </div>
       <div className={styles.items}>
         <div
@@ -23,22 +23,40 @@ export default function Slider() {
           )}
         >
           <div className={styles.item}>
-            <img src="/slider/slider_1.png" />
+            <img
+              src="/slider/slider_1.png"
+              alt="slider obrázek - kategorie zvířat"
+            />
           </div>
           <div className={styles.item}>
-            <img src="/slider/slider_2.png" />
+            <img
+              src="/slider/slider_2.png"
+              alt="slider obrázek - kategorie zvířat"
+            />
           </div>
           <div className={styles.item}>
-            <img src="/slider/slider_3.png" />
+            <img
+              src="/slider/slider_3.png"
+              alt="slider obrázek - kategorie zvířat"
+            />
           </div>
           <div className={styles.item}>
-            <img src="/slider/slider_4.png" />
+            <img
+              src="/slider/slider_4.png"
+              alt="slider obrázek - kategorie zvířat"
+            />
           </div>
           <div className={styles.item}>
-            <img src="/slider/slider_5.png" />
+            <img
+              src="/slider/slider_5.png"
+              alt="slider obrázek - kategorie zvířat"
+            />
           </div>
           <div className={styles.item}>
-            <img src="/slider/slider_6.png" />
+            <img
+              src="/slider/slider_6.png"
+              alt="slider obrázek - kategorie zvířat"
+            />
           </div>
         </div>
       </div>
@@ -46,7 +64,7 @@ export default function Slider() {
         className={classNames(styles.arrowWrapper, styles.leftMargin)}
         onClick={() => setPosition(position + 1)}
       >
-        <input type="image" src="/slider/rightArrow.svg" alt="rightArrow" />
+        <input type="image" src="/slider/rightArrow.svg" alt="šipka vpravo" />
       </div>
     </div>
   );

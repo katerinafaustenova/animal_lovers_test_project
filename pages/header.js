@@ -11,7 +11,7 @@ export default function Header() {
         <img
           className={styles.logo}
           src="/logo.png"
-          alt="logo_heart_animal_lovers"
+          alt="logo animal lovers - srdíčko"
         />
         <div
           className={styles.burger}
@@ -24,7 +24,7 @@ export default function Header() {
         <ul className={styles.ul}>
           <li className={styles.active}>
             <a href="#">
-              <img src="/home.svg" />
+              <img src="/home.svg" alt="ikona domů" />
             </a>
           </li>
           <li>

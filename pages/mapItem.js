@@ -6,7 +6,10 @@ export default function MapItem(props) {
     <div className={styles.wrapper} style={{ left: `${x}px`, top: `${y}px` }}>
       <div className={styles.mapItem}>
         <p className={styles.text}>{name}</p>
-        <img src={`/map/map_${number}.png`} />
+        <img
+          src={`/map/map_${number}.png`}
+          alt={`ikona zvířátka ${number} v kruhu`}
+        />
       </div>
     </div>
   );

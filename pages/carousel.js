@@ -19,7 +19,7 @@ export default function Carousel() {
     <div className={styles.carousel}>
       <img
         src={`/carousel/carousel_${position}.png`}
-        alt={`/carousel_${position}.png`}
+        alt={`promítačka - zvíře ${position}`}
       />
       <div className={styles.controls}>
         {items.map((item) => {

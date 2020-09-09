@@ -27,7 +27,7 @@ export default function Map() {
               <MapItem key={number} number={number} name={name} x={x} y={y} />
             );
           })}
-          <img src="/map/map.png" />
+          <img src="/map/map.png" alt="mapa světa" />
         </div>
       </div>
     </div>
