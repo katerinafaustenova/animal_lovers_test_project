@@ -98,3 +98,20 @@
   top: 14px;
   right: 10px;
 }
+
+@media only screen and (max-width: 450px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .left {
+    justify-content: flex-start;
+    margin: 5px 0;
+    padding: 0;
+  }
+
+  .submit {
+    margin-top: 5px;
+    padding-left: 0;
+  }
+}
