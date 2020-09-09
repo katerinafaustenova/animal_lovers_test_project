@@ -1,4 +1,4 @@
-.wrapper {
+.itemWrapper {
   position: absolute;
   width: 48px;
   height: 48px;
@@ -7,7 +7,7 @@
   cursor: pointer;
 }
 
-.wrapper::after {
+.itemWrapper::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -18,15 +18,15 @@
   border-bottom: 5px solid #000000;
 }
 
-.wrapper:hover::after {
+.itemWrapper:hover::after {
   top: -10px;
 }
 
-.wrapper:hover .text {
+.itemWrapper:hover .text {
   opacity: 1;
 }
 
-.mapItem {
+.item {
   position: relative;
   width: 42px;
   height: 42px;

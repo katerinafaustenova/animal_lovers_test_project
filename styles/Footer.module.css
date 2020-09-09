@@ -5,6 +5,7 @@
   margin: 0 auto;
   background-image: url(/bg_footer.png);
 }
+
 .wrapper {
   display: flex;
   justify-content: space-between;

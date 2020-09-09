@@ -1,6 +1,6 @@
-import styles from "../styles/Carousel.module.css";
 import React, { useState } from "react";
-import CarouselItem from "./carouselItem";
+import ControlItem from "./controlItem";
+import styles from "../styles/Carousel.module.css";
 
 export default function Carousel() {
   const [position, setPosition] = useState(1);
@@ -24,7 +24,7 @@ export default function Carousel() {
       <div className={styles.controls}>
         {items.map((item) => {
           return (
-            <CarouselItem
+            <ControlItem
               key={item.id}
               id={item.id}
               name={item.name}

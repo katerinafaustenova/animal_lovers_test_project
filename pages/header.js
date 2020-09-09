@@ -1,6 +1,6 @@
-import styles from "../styles/Header.module.css";
 import React, { useState } from "react";
 import classNames from "classnames";
+import styles from "../styles/Header.module.css";
 
 export default function Header() {
   const [toggleBurger, setToggleBurger] = useState(false);

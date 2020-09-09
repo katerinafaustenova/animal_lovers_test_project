@@ -1,4 +1,4 @@
-.controlsItem {
+.controlItem {
   background-repeat: no-repeat;
   background-position: bottom right;
   width: 200px;
@@ -7,7 +7,7 @@
   cursor: pointer;
 }
 
-.controlsItem:last-child {
+.controlItem:last-child {
   margin: 0;
 }
 

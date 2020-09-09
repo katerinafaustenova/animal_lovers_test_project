@@ -3,7 +3,7 @@ import styles from "../styles/news.module.css";
 
 export default function News() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.news}>
       <NewsItem
         source="news_1"
         title="Lorem ipsum dolor sit amet"

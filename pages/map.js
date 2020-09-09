@@ -1,5 +1,5 @@
-import styles from "../styles/Map.module.css";
 import MapItem from "./mapItem";
+import styles from "../styles/Map.module.css";
 
 export default function Map() {
   const items = [

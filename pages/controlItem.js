@@ -1,12 +1,12 @@
-import styles from "../styles/CarouselItem.module.css";
 import classNames from "classnames";
+import styles from "../styles/ControlItem.module.css";
 
-export default function CarouselItem(props) {
+export default function ControlItem(props) {
   const { id, name, position } = props;
   return (
     <div
       className={classNames(
-        styles.controlsItem,
+        styles.controlItem,
         styles[name],
         position === id && styles.active
       )}

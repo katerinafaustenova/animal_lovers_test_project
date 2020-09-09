@@ -1,12 +1,12 @@
-import styles from "../styles/Slider.module.css";
 import React, { useState } from "react";
 import classNames from "classnames";
+import styles from "../styles/Slider.module.css";
 
 export default function Slider() {
   const [position, setPosition] = useState(1);
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.slider}>
       <div
         className={classNames(styles.arrowWrapper, styles.rightMargin)}
         onClick={() => setPosition(position - 1)}
