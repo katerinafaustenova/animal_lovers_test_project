@@ -50,17 +50,17 @@
   height: 26px;
   line-height: 26px;
   border-radius: 4px;
-  font-size: var(--fz-header);
+  font-size: var(--fz-larger);
   transition: 0.18s;
 }
 
 .ul li:hover {
-  background-color: #fff;
+  background-color: white;
   color: black;
 }
 
 .ul li.active {
-  background-color: #fff;
+  background-color: white;
   color: black;
   padding-top: 2px;
 }
@@ -81,7 +81,7 @@
     width: 40px;
     height: 40px;
     margin-left: auto;
-    background-image: url("/menu.svg");
+    background-image: url("/burger/open.svg");
     background-size: contain;
   }
 
@@ -107,7 +107,7 @@
   .expand .burger {
     width: 40px;
     height: 40px;
-    background-image: url("/close.svg");
+    background-image: url("/burger/close.svg");
     background-size: contain;
   }
 
@@ -116,7 +116,7 @@
     flex-direction: column;
     position: absolute;
     top: 80px;
-    background-image: url(/top_background.png);
+    background-image: url(/bg_header.png);
     padding: 15px;
   }
 }

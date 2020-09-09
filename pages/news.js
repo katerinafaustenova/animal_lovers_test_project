@@ -5,17 +5,17 @@ export default function News() {
   return (
     <div className={styles.wrapper}>
       <NewsItem
-        source="aktuality_1"
+        source="news_1"
         title="Lorem ipsum dolor sit amet"
         text="Quisque et purus magna. Sed egestas facilisis fringilla."
       />
       <NewsItem
-        source="aktuality_2"
+        source="news_2"
         title="Lorem ipsum dolor sit amet"
         text="Quisque et purus magna. Sed egestas facilisis fringilla."
       />
       <NewsItem
-        source="aktuality_3"
+        source="news_3"
         title="Lorem ipsum dolor sit amet"
         text="Quisque et purus magna. Sed egestas facilisis fringilla."
       />

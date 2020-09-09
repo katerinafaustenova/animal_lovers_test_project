@@ -1,11 +1,10 @@
 .footer {
-  color: #fff;
+  color: white;
   width: 100%;
   max-width: 1450px;
   margin: 0 auto;
-  background-image: url(/footer-bg.png);
+  background-image: url(/bg_footer.png);
 }
-
 .wrapper {
   display: flex;
   justify-content: space-between;
@@ -13,5 +12,5 @@
   max-width: 941px;
   margin: 0 auto;
   line-height: 60px;
-  font-size: var(--fz-small);
+  font-size: var(--fz-smaller);
 }

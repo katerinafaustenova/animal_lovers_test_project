@@ -23,22 +23,22 @@ export default function Slider() {
           )}
         >
           <div className={styles.item}>
-            <img src="/slider/1.png" />
+            <img src="/slider/slider_1.png" />
           </div>
           <div className={styles.item}>
-            <img src="/slider/2.png" />
+            <img src="/slider/slider_2.png" />
           </div>
           <div className={styles.item}>
-            <img src="/slider/3.png" />
+            <img src="/slider/slider_3.png" />
           </div>
           <div className={styles.item}>
-            <img src="/slider/4.png" />
+            <img src="/slider/slider_4.png" />
           </div>
           <div className={styles.item}>
-            <img src="/slider/5.png" />
+            <img src="/slider/slider_5.png" />
           </div>
           <div className={styles.item}>
-            <img src="/slider/6.png" />
+            <img src="/slider/slider_6.png" />
           </div>
         </div>
       </div>

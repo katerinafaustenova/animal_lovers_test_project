@@ -2,20 +2,21 @@
   width: 100%;
   max-width: 941px;
   padding: 35px 0 0;
-  color: var(--gray-600);
   text-align: center;
 }
 
 .title {
-  font-size: 26px;
+  font-size: var(--fz-title-larger);
   line-height: 30px;
   font-weight: 300;
   margin: 0;
+  color: var(--gray-4);
 }
 
 .text {
-  font-size: var(--fz-smaller);
+  font-size: var(--fz-smallest);
   margin-bottom: 0;
+  color: var(--gray-3);
 }
 
 .scroll {

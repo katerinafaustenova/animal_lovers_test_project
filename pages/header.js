@@ -24,7 +24,7 @@ export default function Header() {
         <ul className={styles.ul}>
           <li className={styles.active}>
             <a href="#">
-              <img src="/home1.svg" />
+              <img src="/home.svg" />
             </a>
           </li>
           <li>

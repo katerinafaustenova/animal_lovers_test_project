@@ -17,7 +17,10 @@ export default function Carousel() {
 
   return (
     <div className={styles.carousel}>
-      <img src={`/slider_${position}.png`} alt={`/slider_${position}.png`} />
+      <img
+        src={`/carousel/carousel_${position}.png`}
+        alt={`/carousel_${position}.png`}
+      />
       <div className={styles.controls}>
         {items.map((item) => {
           return (

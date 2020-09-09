@@ -1,8 +1,18 @@
 :root {
-  --gray-600: #6a6a6a;
-  --fz-smaller: 12px;
-  --fz-small: 13px;
-  --fz-normal: 14px;
-  --fz-header: 15px;
-  --fz-tooltip: 17px;
+  --gray-1: rgb(161, 161, 161); /* disabled arrow */
+  --gray-2: rgb(157, 155, 155); /* placeholder */
+  --gray-3: rgb(153, 153, 153); /* map text */
+  --gray-4: rgb(107, 107, 107); /* headline & map title */
+  --gray-5: rgb(92, 92, 92); /* label */
+  --gray-6: rgb(77, 77, 77); /* arrow background */
+  --gray-7: rgb(74, 74, 74); /* active arrow */
+  --gray-8: rgb(51, 51, 51); /* button background */
+
+  --fz-smallest: 12px; /* map text */
+  --fz-smaller: 13px; /* placeholder & footer & news text */
+  --fz-normal: 14px; /* label & button & news title */
+  --fz-larger: 15px; /* nav */
+  --fz-largest: 17px; /* tooltip */
+  --fz-title: 24px; /* headlines */
+  --fz-title-larger: 26px; /* map title */
 }

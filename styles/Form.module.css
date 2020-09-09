@@ -24,7 +24,7 @@
 
 .label {
   font-size: var(--fz-normal);
-  color: #5c5c5c;
+  color: var(--gray-5);
   font-weight: 600;
 }
 
@@ -44,8 +44,8 @@
 
 .input::placeholder {
   padding-left: 12px;
-  color: #9c9a9a;
-  font-size: var(--fz-small);
+  color: var(--gray-2);
+  font-size: var(--fz-smaller);
 }
 
 .submit {
@@ -53,7 +53,7 @@
 }
 
 .button {
-  background-color: #323232;
+  background-color: var(--gray-8);
   color: white;
   border: none;
   border-radius: 3px;
@@ -74,8 +74,8 @@
   -moz-appearance: none;
   -webkit-appearance: none;
   padding-left: 12px;
-  color: #9c9a9a;
-  font-size: var(--fz-small);
+  color: var(--gray-2);
+  font-size: var(--fz-smaller);
 }
 
 .select:before {
@@ -83,7 +83,7 @@
   pointer-events: none;
   width: 25px;
   height: 24px;
-  background-color: #4c4c4c;
+  background-color: var(--gray-6);
   position: absolute;
   border-radius: 3px;
   top: 4px;

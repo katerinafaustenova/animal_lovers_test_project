@@ -41,7 +41,7 @@
   width: auto;
   padding: 0 15px;
   border-radius: 3px;
-  font-size: var(--fz-tooltip);
+  font-size: var(--fz-largest);
   line-height: 36px;
   white-space: nowrap;
   color: white;
