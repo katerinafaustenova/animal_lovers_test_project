@@ -1,6 +1,6 @@
 .item {
-  display: flex;
   width: 33%;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -9,26 +9,21 @@
 }
 
 .title {
-  color: black;
   font-size: var(--fz-normal);
-  text-decoration: underline;
   font-weight: 600;
+  text-decoration: underline;
 }
 
 .text {
-  margin: 5px 0;
   font-size: var(--fz-smaller);
-  color: black;
   line-height: 1.5;
+  margin: 5px 0;
 }
 
 @media only screen and (max-width: 950px) {
   .item {
     width: 100%;
-    margin-bottom: 20px;
     max-width: 300px;
+    margin-bottom: 20px;
   }
-  /* .item:nth-child(even) {
-    flex-direction: row-reverse;
-  } */
 }

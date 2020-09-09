@@ -1,26 +1,24 @@
 .header {
-  display: flex;
   max-width: 980px;
-  padding: 0 20px;
   width: 100%;
-  height: 80px;
-  color: white;
+  display: flex;
   position: relative;
+  color: white;
+  padding: 0 20px;
   z-index: 50;
 }
 
 .wrapper {
-  width: 100%;
   display: flex;
   align-items: center;
 }
 
 .logo {
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 10px;
-  height: 80px;
 }
 
 .burger {
@@ -28,29 +26,28 @@
 }
 
 .nav {
-  display: flex;
-  flex-direction: row;
   width: 100%;
+  display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
 .ul {
+  display: flex;
   margin: 0;
   list-style: none;
-  display: flex;
 }
 
 .ul li {
+  height: 26px;
   display: flex;
   justify-content: center;
+  border-radius: 4px;
+  font-size: var(--fz-larger);
+  line-height: 26px;
   margin: 0 6px;
   padding: 0px 14px;
   cursor: pointer;
-  height: 26px;
-  line-height: 26px;
-  border-radius: 4px;
-  font-size: var(--fz-larger);
   transition: 0.18s;
 }
 
@@ -61,7 +58,6 @@
 
 .ul li.active {
   background-color: white;
-  color: black;
   padding-top: 2px;
 }
 
@@ -94,10 +90,10 @@
   }
 
   .ul li {
-    font-size: 24px;
-    padding: 10px 30px;
     height: auto;
+    font-size: 24px;
     margin-bottom: 10px;
+    padding: 10px 30px;
   }
 
   .ul li.active {

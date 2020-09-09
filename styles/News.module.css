@@ -1,9 +1,8 @@
 .news {
+  max-width: 940px;
   display: flex;
   justify-content: space-between;
   margin: 0px auto 70px;
-  width: 100%;
-  max-width: 940px;
 }
 
 @media only screen and (max-width: 950px) {

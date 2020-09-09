@@ -2,7 +2,6 @@
   max-width: 1400px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-image: url(/bg_header.png);
   background-repeat: no-repeat;

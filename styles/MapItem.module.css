@@ -1,7 +1,5 @@
 .itemWrapper {
   position: absolute;
-  width: 48px;
-  height: 48px;
   border: solid 3px black;
   border-radius: 50%;
   cursor: pointer;
@@ -27,27 +25,27 @@
 }
 
 .item {
-  position: relative;
   width: 42px;
   height: 42px;
+  position: relative;
   border: solid 2px white;
   border-radius: 50%;
 }
 
 .text {
+  width: auto;
   position: absolute;
   top: -44px;
   left: 50%;
-  width: auto;
-  padding: 0 15px;
+  color: white;
+  background: black;
   border-radius: 3px;
   font-size: var(--fz-largest);
   line-height: 36px;
   white-space: nowrap;
-  color: white;
-  transform: translate(-50%, -50%);
-  background: black;
+  padding: 0 15px;
   opacity: 0;
   z-index: 10;
   transition: 0.4s;
+  transform: translate(-50%, -50%);
 }

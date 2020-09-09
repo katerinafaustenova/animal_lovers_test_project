@@ -11,15 +11,15 @@
 
 .left {
   width: 140px;
-  padding: 0 13px;
   display: flex;
-  align-items: center;
   justify-content: flex-end;
+  align-items: center;
+  padding: 0 13px;
 }
 
 .label {
-  font-size: var(--fz-normal);
   color: var(--gray-5);
+  font-size: var(--fz-normal);
   font-weight: 600;
 }
 
@@ -32,7 +32,6 @@
 .select {
   width: 100%;
   height: 100%;
-  background: rgb(255, 255, 255);
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 0%,
@@ -44,9 +43,9 @@
 }
 
 .input::placeholder {
-  padding-left: 12px;
   color: var(--gray-2);
   font-size: var(--fz-smaller);
+  padding-left: 12px;
 }
 
 .withArrow {
@@ -58,9 +57,9 @@
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
-  padding-left: 12px;
   color: var(--gray-2);
   font-size: var(--fz-smaller);
+  padding-left: 12px;
 }
 
 .withArrow:before {
@@ -68,21 +67,21 @@
   pointer-events: none;
   width: 25px;
   height: 24px;
-  background-color: var(--gray-6);
   position: absolute;
-  border-radius: 3px;
   top: 4px;
   right: 4px;
+  background-color: var(--gray-6);
+  border-radius: 3px;
 }
 
 .withArrow:after {
   content: "";
   pointer-events: none;
-  border: 6px solid transparent;
-  border-top: 6px solid white;
   position: absolute;
   top: 14px;
   right: 10px;
+  border: 6px solid transparent;
+  border-top: 6px solid white;
 }
 
 .submit {
@@ -90,14 +89,14 @@
 }
 
 .button {
+  width: 112px;
+  height: 34px;
   background-color: var(--gray-8);
   color: white;
   border: none;
   border-radius: 3px;
-  width: 112px;
-  height: 34px;
-  margin-top: 6px;
   font-size: var(--fz-normal);
+  margin-top: 6px;
   cursor: pointer;
 }
 

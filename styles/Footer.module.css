@@ -1,17 +1,15 @@
 .footer {
-  color: white;
   width: 100%;
   max-width: 1450px;
-  margin: 0 auto;
+  color: white;
   background-image: url(/bg_footer.png);
 }
 
 .wrapper {
+  max-width: 941px;
   display: flex;
   justify-content: space-between;
-  width: auto;
-  max-width: 941px;
-  margin: 0 auto;
-  line-height: 60px;
   font-size: var(--fz-smaller);
+  line-height: 60px;
+  margin: 0 auto;
 }

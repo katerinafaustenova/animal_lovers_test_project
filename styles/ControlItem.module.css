@@ -1,8 +1,8 @@
 .controlItem {
-  background-repeat: no-repeat;
-  background-position: bottom right;
   width: 200px;
   height: 94px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
   margin-right: 10px;
   cursor: pointer;
 }

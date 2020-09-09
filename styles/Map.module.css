@@ -1,37 +1,31 @@
 .map {
   width: 100%;
   max-width: 941px;
-  padding: 35px 0 0;
   text-align: center;
+  padding: 35px 0 0;
 }
 
 .title {
-  font-size: var(--fz-title-larger);
-  line-height: 30px;
-  font-weight: 300;
-  margin: 0;
   color: var(--gray-4);
+  font-size: var(--fz-title-larger);
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0;
 }
 
 .text {
+  color: var(--gray-3);
   font-size: var(--fz-smallest);
   margin-bottom: 0;
-  color: var(--gray-3);
 }
 
 .scroll {
   padding-top: 30px;
-  width: 100%;
   overflow-x: scroll;
 }
 
 .image {
-  position: relative;
   width: 941px;
   height: 225px;
-}
-
-.image img {
-  width: 100%;
-  height: auto;
+  position: relative;
 }
