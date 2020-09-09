@@ -40,12 +40,14 @@
   );
   border: 1px solid #cecece;
   border-radius: 3px;
+  padding-left: 12px;
 }
 
 .input::placeholder {
   color: var(--gray-2);
   font-size: var(--fz-smaller);
-  padding-left: 12px;
+  line-height: 13px; /* Safari fix @ */
+  font-family: "Open Sans", sans-serif !important; /* Chrome fix v inputech */
 }
 
 .withArrow {
@@ -59,7 +61,7 @@
   -webkit-appearance: none;
   color: var(--gray-2);
   font-size: var(--fz-smaller);
-  padding-left: 12px;
+  font-family: "Open Sans", sans-serif !important; /* Chrome fix v inputech */
 }
 
 .withArrow:before {

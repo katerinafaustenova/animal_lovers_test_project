@@ -13,3 +13,9 @@
   line-height: 60px;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 980px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+}

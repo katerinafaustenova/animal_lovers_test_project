@@ -28,4 +28,11 @@
   width: 941px;
   height: 225px;
   position: relative;
+  line-height: 0; /* Firefox fix (scroll) */
+}
+
+@media only screen and (max-width: 980px) {
+  .scroll {
+    padding: 30px 20px 0;
+  }
 }
