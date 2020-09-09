@@ -16,7 +16,7 @@ export default function Carousel() {
   }
 
   return (
-    <div className={styles.carousel}>
+    <section className={styles.carousel}>
       <img
         src={`/carousel/carousel_${position}.png`}
         alt={`promítačka - zvíře ${position}`}
@@ -34,6 +34,6 @@ export default function Carousel() {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 }

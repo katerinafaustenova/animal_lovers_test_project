@@ -3,7 +3,7 @@ import styles from "../styles/news.module.css";
 
 export default function News() {
   return (
-    <div className={styles.news}>
+    <section className={styles.news}>
       <NewsItem
         source="news_1"
         title="Lorem ipsum dolor sit amet"
@@ -19,6 +19,6 @@ export default function News() {
         title="Lorem ipsum dolor sit amet"
         text="Quisque et purus magna. Sed egestas facilisis fringilla."
       />
-    </div>
+    </section>
   );
 }

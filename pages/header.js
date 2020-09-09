@@ -6,7 +6,9 @@ export default function Header() {
   const [toggleBurger, setToggleBurger] = useState(false);
 
   return (
-    <div className={classNames(styles.header, toggleBurger && styles.expand)}>
+    <header
+      className={classNames(styles.header, toggleBurger && styles.expand)}
+    >
       <div className={styles.wrapper}>
         <img
           className={styles.logo}
@@ -44,6 +46,6 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-    </div>
+    </header>
   );
 }

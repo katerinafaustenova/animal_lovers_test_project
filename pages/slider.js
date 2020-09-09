@@ -6,7 +6,7 @@ export default function Slider() {
   const [position, setPosition] = useState(1);
 
   return (
-    <div className={styles.slider}>
+    <section className={styles.slider}>
       <div
         className={classNames(styles.arrowWrapper, styles.rightMargin)}
         onClick={() => setPosition(position - 1)}
@@ -66,6 +66,6 @@ export default function Slider() {
       >
         <input type="image" src="/slider/rightArrow.svg" alt="šipka vpravo" />
       </div>
-    </div>
+    </section>
   );
 }

@@ -14,7 +14,7 @@ export default function Map() {
   ];
 
   return (
-    <div className={styles.map}>
+    <section className={styles.map}>
       <h1 className={styles.title}>Zvířata podle světadílu</h1>
       <p className={styles.text}>
         Nunc et lacinia est. Suspendisse porttitor, ante sit amet laoreet omare,
@@ -30,6 +30,6 @@ export default function Map() {
           <img src="/map/map.png" alt="mapa světa" />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

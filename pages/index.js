@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Header from "./header";
-import Slider from "./slider";
+import Carousel from "./carousel";
 import Map from "./map";
+import Headline from "./headline";
 import News from "./news";
 import Form from "./form";
-import Headline from "./headline";
-import Carousel from "./carousel";
+import Slider from "./slider";
 import Footer from "./footer";
 import styles from "../styles/Home.module.css";
 
