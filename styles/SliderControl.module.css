@@ -1,0 +1,20 @@
+.arrow {
+  display: flex;
+  align-items: center;
+  margin: 0 13px;
+  color: #4c4c4c;
+  cursor: pointer;
+  user-select: none;
+}
+
+.right {
+  transform: rotate(180deg);
+}
+
+.arrow svg {
+  fill: currentColor;
+}
+
+.disabled {
+  color: #a2a2a2;
+}

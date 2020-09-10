@@ -1,51 +1,41 @@
-.slider {
+.wrapper {
   display: flex;
   margin: 5px 0 55px 0;
 }
 
-.arrowWrapper {
-  display: flex;
-  align-items: center;
-}
-
-.arrowWrapper input:focus {
-  outline: none;
-}
-
-.rightMargin {
-  margin-right: 13px;
-}
-
-.leftMargin {
-  margin-left: 13px;
-}
-
 .items {
-  width: 856px;
+  width: calc(4 * 214px);
   overflow: hidden;
 }
 
-.viewSlides {
+.slider {
   position: relative;
   left: 0px;
   display: flex;
   transition: 0.5s;
 }
 
-.second {
-  left: -214px;
-}
-
-.third {
-  left: -428px;
-}
-
 .item {
   width: 200px;
   line-height: 1px;
   margin: 0 7px;
+  cursor: pointer;
 }
 
-.item img {
-  cursor: pointer;
+@media only screen and (max-width: 950px) {
+  .items {
+    width: calc(3 * 214px);
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .items {
+    width: calc(2 * 214px);
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .items {
+    width: calc(1 * 214px);
+  }
 }
