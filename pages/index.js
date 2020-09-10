@@ -20,15 +20,19 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
-      <Header />
-      <Carousel />
-      <Map />
-      <Headline title="Aktuality" />
-      <News />
-      <Headline title="Novinky e-mailem" />
-      <Form />
-      <Headline title="Zvířata dle druhu" />
-      <Slider />
+      <div className={styles.top}>
+        <Header />
+        <Carousel />
+      </div>
+      <div className={styles.content}>
+        <Map />
+        <Headline title="Aktuality" />
+        <News />
+        <Headline title="Novinky e-mailem" />
+        <Form />
+        <Headline title="Zvířata dle druhu" />
+        <Slider />
+      </div>
       <Footer />
     </div>
   );

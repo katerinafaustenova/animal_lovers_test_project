@@ -6,16 +6,11 @@
 }
 
 .wrapper {
-  max-width: 941px;
+  max-width: 981px;
   display: flex;
   justify-content: space-between;
   font-size: var(--fz-smaller);
   line-height: 60px;
   margin: 0 auto;
-}
-
-@media only screen and (max-width: 980px) {
-  .wrapper {
-    padding: 0 20px;
-  }
+  padding: 0 20px;
 }

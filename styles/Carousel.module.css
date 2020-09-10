@@ -1,6 +1,7 @@
 .carousel {
   max-width: 1065px;
   position: relative;
+  margin-bottom: -30px;
 }
 
 .carousel img {

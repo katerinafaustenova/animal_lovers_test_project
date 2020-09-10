@@ -26,7 +26,7 @@ export default function Form() {
           </label>
         </div>
         <div className={classNames(styles.right, styles.withArrow)}>
-          <select className={styles.select}>
+          <select name="select" className={styles.select}>
             <option selected disabled hidden>
               Vyberte zemi
             </option>

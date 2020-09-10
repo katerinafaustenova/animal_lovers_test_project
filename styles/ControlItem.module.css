@@ -35,3 +35,19 @@
 .tiger.active {
   background-image: url(/carousel/control_tiger_over.png);
 }
+
+@media only screen and (max-width: 680px) {
+  .controlItem {
+    width: 133px;
+    height: 62px;
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .controlItem {
+    width: 100px;
+    height: 47px;
+    background-size: contain;
+  }
+}

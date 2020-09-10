@@ -1,5 +1,5 @@
 .news {
-  max-width: 940px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin: 0px auto 70px;

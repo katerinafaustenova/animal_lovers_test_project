@@ -1,10 +1,27 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.top {
+  width: 100%;
   max-width: 1400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-image: url(/bg_header.png);
   background-repeat: no-repeat;
-  background-position-y: -7%;
-  margin: 0 auto;
+  background-size: cover;
+  padding: 0 20px;
+}
+
+.content {
+  width: 100%;
+  max-width: 981px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
 }
