@@ -1,7 +1,7 @@
 .item {
-  width: 33%;
   display: flex;
   justify-content: space-between;
+  width: 33%;
 }
 
 .data {

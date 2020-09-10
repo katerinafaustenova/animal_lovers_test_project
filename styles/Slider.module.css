@@ -9,9 +9,9 @@
 }
 
 .slider {
+  display: flex;
   position: relative;
   left: 0px;
-  display: flex;
   transition: 0.5s;
 }
 
@@ -22,13 +22,13 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 980px) {
   .items {
     width: calc(3 * 214px);
   }
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 820px) {
   .items {
     width: calc(2 * 214px);
   }

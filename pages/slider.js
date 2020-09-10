@@ -19,9 +19,9 @@ export default function Slider() {
   function scrollTo() {
     if (width < 520) {
       return 5;
-    } else if (width < 730) {
+    } else if (width < 820) {
       return 4;
-    } else if (width < 950) {
+    } else if (width < 980) {
       return 3;
     } else {
       return 2;
