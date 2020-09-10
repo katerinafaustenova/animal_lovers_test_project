@@ -20,7 +20,7 @@
 
 .scroll {
   padding-top: 30px;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 .image {
