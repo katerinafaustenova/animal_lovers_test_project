@@ -1,12 +1,12 @@
 import Head from "next/head";
-import Header from "./header";
-import Carousel from "./carousel";
-import Map from "./map";
-import Headline from "./headline";
-import News from "./news";
-import Form from "./form";
-import Slider from "./slider";
-import Footer from "./footer";
+import Header from "../components/header";
+import Carousel from "../components/carousel";
+import Map from "../components/map";
+import Headline from "../components/headline";
+import News from "../components/news";
+import Form from "../components/form";
+import Slider from "../components/slider";
+import Footer from "../components/footer";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {

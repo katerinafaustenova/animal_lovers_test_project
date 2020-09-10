@@ -29,7 +29,7 @@ export default function Header() {
           </li>
           {items.map((item) => {
             return (
-              <li>
+              <li key={item}>
                 <a href="#">{item}</a>
               </li>
             );

@@ -46,7 +46,10 @@ export default function Slider() {
           {items.map((item) => {
             return (
               <div className={styles.item} key={item}>
-                <img src={`/slider/slider_${item}.png`} />
+                <img
+                  src={`/slider/slider_${item}.png`}
+                  alt={`slider obrázek zvíře ${item}`}
+                />
               </div>
             );
           })}

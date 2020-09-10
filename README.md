@@ -1,4 +1,4 @@
-# Animal lovers
+# Animal Lovers
 
 This is a single page app built in Next.js, which serves as a testing project for FG Forrest.
 
