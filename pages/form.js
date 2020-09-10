@@ -6,7 +6,7 @@ export default function Form() {
     <form className={styles.form}>
       <div className={styles.row}>
         <div className={styles.left}>
-          <label for="email" className={styles.label}>
+          <label htmlFor="email" className={styles.label}>
             Váš e-mail:
           </label>
         </div>
@@ -21,13 +21,17 @@ export default function Form() {
       </div>
       <div className={styles.row}>
         <div className={styles.left}>
-          <label for="select" className={styles.label}>
+          <label htmlFor="select" className={styles.label}>
             Vaše země:
           </label>
         </div>
         <div className={classNames(styles.right, styles.withArrow)}>
-          <select name="select" className={styles.select}>
-            <option selected disabled hidden>
+          <select
+            name="select"
+            defaultValue="default"
+            className={styles.select}
+          >
+            <option value="default" disabled hidden>
               Vyberte zemi
             </option>
           </select>

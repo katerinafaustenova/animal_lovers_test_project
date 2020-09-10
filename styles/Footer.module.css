@@ -1,16 +1,17 @@
 .footer {
   width: 100%;
-  max-width: 1450px;
+  max-width: 1400px;
   color: white;
   background-image: url(/bg_footer.png);
 }
 
 .wrapper {
   max-width: 981px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: var(--fz-smaller);
-  line-height: 60px;
   margin: 0 auto;
   padding: 0 20px;
 }

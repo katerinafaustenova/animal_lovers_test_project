@@ -5,9 +5,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.wrapper}>
         <div>© 2012 Animal Lovers </div>
-        <div>
-          <img src="/logo_fg.svg" alt="logo fg forrest" />
-        </div>
+        <img src="/logo_fg.svg" alt="logo fg forrest" />
       </div>
     </footer>
   );

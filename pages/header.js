@@ -5,16 +5,14 @@ import styles from "../styles/Header.module.css";
 export default function Header() {
   const [toggleBurger, setToggleBurger] = useState(false);
 
+  const items = ["Lvi", "Zebry", "Žirafy", "Pumy", "Kohouti"];
+
   return (
     <header
       className={classNames(styles.header, toggleBurger && styles.expand)}
     >
       <div className={styles.wrapper}>
-        <img
-          className={styles.logo}
-          src="/logo.png"
-          alt="logo animal lovers - srdíčko"
-        />
+        <img src="/logo.png" alt="logo animal lovers - srdíčko" />
         <div
           className={styles.burger}
           onClick={() => {
@@ -29,21 +27,13 @@ export default function Header() {
               <img src="/home.svg" alt="ikona domů" />
             </a>
           </li>
-          <li>
-            <a href="#">Lvi</a>
-          </li>
-          <li>
-            <a href="#">Zebry</a>
-          </li>
-          <li>
-            <a href="#">Žirafy</a>
-          </li>
-          <li>
-            <a href="#">Pumy</a>
-          </li>
-          <li>
-            <a href="#">Kohouti</a>
-          </li>
+          {items.map((item) => {
+            return (
+              <li>
+                <a href="#">{item}</a>
+              </li>
+            );
+          })}
         </ul>
       </nav>
     </header>

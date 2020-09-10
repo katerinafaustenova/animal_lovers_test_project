@@ -15,7 +15,7 @@
 .text {
   color: var(--gray-3);
   font-size: var(--fz-smallest);
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .scroll {
@@ -28,6 +28,7 @@
   height: 225px;
   position: relative;
   line-height: 0; /* Firefox fix (scroll) */
+  margin-bottom: 6px;
 }
 
 @media only screen and (max-width: 980px) {
