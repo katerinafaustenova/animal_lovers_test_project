@@ -1,5 +1,5 @@
 import NewsItem from "./newsItem";
-import styles from "../styles/news.module.css";
+import styles from "../styles/News.module.css";
 
 export default function News() {
   return (
